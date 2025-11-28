@@ -1,5 +1,25 @@
-# Vue 3 + TypeScript + Vite
+# 💼 JobTracker - Vue 3 + Firebase
 
-This template should help get you started developing with Vue 3 and TypeScript in Vite. The template uses Vue 3 `<script setup>` SFCs, check out the [script setup docs](https://v3.vuejs.org/api/sfc-script-setup.html#sfc-script-setup) to learn more.
+Aplicación web para el seguimiento de postulaciones laborales, desarrollada con tecnologías modernas del ecosistema Vue.
 
-Learn more about the recommended Project Setup and IDE Support in the [Vue Docs TypeScript Guide](https://vuejs.org/guide/typescript/overview.html#project-setup).
+## 🚀 Tecnologías (Tech Stack)
+
+* **Frontend Framework:** Vue 3 (Composition API + Script Setup).
+* **Lenguaje:** TypeScript (Tipado estricto e interfaces).
+* **Estado Global:** Pinia (Store management).
+* **Estilos:** Tailwind CSS v4.
+* **Backend as a Service:** Firebase (Authentication + Firestore Database).
+* **Build Tool:** Vite.
+
+## 🛠️ Funcionalidades
+
+* **Autenticación:** Login seguro con Google (Firebase Auth).
+* **CRUD Completo:** Crear, Leer, Actualizar y Eliminar postulaciones en tiempo real.
+* **Seguridad:** Protección de rutas (Navigation Guards) para usuarios no autenticados.
+* **Feedback Visual:** Indicadores de carga, manejo de errores y estados dinámicos.
+
+## 📦 Instalación Local
+
+1. Clonar el repositorio:
+   ```bash
+   git clone [https://github.com/tu-usuario/vue3-job-tracker.git](https://github.com/tu-usuario/vue3-job-tracker.git)
