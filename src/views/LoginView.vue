@@ -31,14 +31,14 @@
 
 <script setup lang="ts">
 //Stores
-import { useAuth } from "../stores/auth";
+import { useAuthStore } from "../stores/auth";
 //Router
 import { useRouter } from "vue-router";
 //Vue
 import { ref } from "vue";
 
 const router = useRouter();
-const auth = useAuth();
+const auth = useAuthStore();
 
 const isLoading = ref(false);
 const errorMessage = ref("");

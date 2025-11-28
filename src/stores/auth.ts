@@ -8,7 +8,7 @@ import { auth } from '../firebase/config'
 //Router
 import { useRouter } from 'vue-router'
 
-export const useAuth = defineStore('auth', () => {
+export const useAuthStore = defineStore('auth', () => {
     const user = ref<any>(null);
 
     const router = useRouter();
@@ -46,6 +46,10 @@ export const useAuth = defineStore('auth', () => {
                 user.value = null;
             }
         });
+    }
+
+    if(auth.currentUser){
+        user.value = auth.currentUser;
     }
 
     return {
